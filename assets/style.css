@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.header__top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background-color: #595959;
+  height: 40px;
+  font-family: "Abel", sans-serif; }
+
+.headerMid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  transition: 0.5s; }
+
+.headerMid:hover {
+  transform: scale(1.1); }
+
+.header__topTop {
+  padding: 10px;
+  color: white;
+  transition: all;
+  font-family: "Abel", sans-serif; }
+
+.header__topTop:hover {
+  color: #ff7f50; }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Abel", sans-serif;
+  color: #595959; }
+
+.nav__mobile {
+  display: none; }
+
+@media (max-width: 600px) {
+  .nav {
+    display: none; }
+  .nav__mobile {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Abel", sans-serif;
+    color: #595959;
+    justify-content: center;
+    text-align: center; } }
+
+.nav__item {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: #595959;
+  text-transform: uppercase;
+  transition: 0.5s;
+  justify-content: center; }
+
+.nav__item:hover {
+  transform: scale(1.1);
+  color: #ff7f50; }
+
+.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 10px; }
+
+.quienesSomos {
+  width: 600px;
+  height: 400px;
+  text-align: justify;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Abel", sans-serif;
+  background-color: #d6d4d4; }
+
+.quienesSomos:hover {
+  animation: flipInX;
+  animation-duration: 2s;
+  animation-direction: alternate; }
+
+.queHacemos {
+  width: 600px;
+  height: 400px;
+  background-color: #595959;
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: "Abel", sans-serif; }
+
+.animate__flipInX {
+  animation: flipInX;
+  animation-duration: 2s;
+  animation-direction: alternate; }
+
+.animate__flipInX:hover {
+  animation: flipInX;
+  animation-duration: 2s;
+  animation-direction: alternate; }
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Galada", cursive; }
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Galada", cursive; }
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Abel", sans-serif; }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 40px; }
+
+.infoBlanco {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.infoVerde {
+  padding-top: 50px;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Abel", sans-serif; }
+
+.infoVerdeMobile {
+  display: none; }
+
+@media (max-width: 800px) {
+  .infoVerde {
+    display: none; }
+  .infoVerdeMobile {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Abel", sans-serif; } }
+
+.infoBar {
+  background-color: #DAE2D6; }
+
+.fotoCelu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.fotoCelu__celu {
+  display: block;
+  width: 15%;
+  transition: 0.5s;
+  box-sizing: border-box;
+  margin: 5px auto;
+  border-radius: 15px; }
+
+.fotoCelu__celu:hover {
+  transform: scale(1.2); }
+
+footer {
+  background-color: #595959; }
+
+.info ul {
+  font-size: 15px;
+  font-family: "Abel", sans-serif;
+  margin: 10px;
+  justify-content: center;
+  transition: 0.5s;
+  font-family: "Abel", sans-serif;
+  padding-top: 35px;
+  color: white; }
+
+.info ul:hover {
+  transform: scale(1.2); }
+
+.news ul {
+  font-family: "Abel", sans-serif;
+  margin: 10px; }
+
+.redes ul {
+  font-size: 15px;
+  padding-top: 80px;
+  font-family: "Abel", sans-serif;
+  justify-content: center;
+  margin: 10px;
+  color: white; }
+
+.news {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.redes__link {
+  padding-bottom: 10px;
+  font-family: "Abel", sans-serif;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s; }
+
+.redes__link:hover {
+  transform: scale(1.1); }
+
+.mov {
+  transition: 0.3s; }
+
+.mov:hover {
+  transform: scale(1.1); }
+
+.nombre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  transition: 0.5s;
+  text-align: center; }
+
+.nombre:hover {
+  transform: scale(1.1); }
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  transition: 0.5s;
+  text-align: center; }
+
+.email:hover {
+  transform: scale(1.1); }
+
+.boton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  transition: 0.5s;
+  color: #595959;
+  text-align: center; }
+
+.boton:hover {
+  transform: scale(1.1);
+  color: #ff7f50; }
+
+.margen {
+  padding: 0;
+  margin: 0; }
+
+@media (min-width: 768px) {
+  .barra {
+    justify-content: left; } }
+
+hr {
+  height: 1px;
+  background-color: #DAE2D6;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-color: #DAE2D6; }
+
+.copyright {
+  font-family: "Abel", sans-serif;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white; }
