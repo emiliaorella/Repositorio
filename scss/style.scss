@@ -151,13 +151,12 @@ $fontDos: 'Galada', cursive;
 		height: 350px;
 		background-color: $colorTres;
 		color: $colorUno;
-		padding: 20px;
+		
 	}
 	.que__mobile {
 		height: 400px;
 		background-color: $colorUno;
 		color: white;
-		padding: 20px;
 		margin-top: 40px;
 	}
 }
@@ -257,6 +256,26 @@ h3 {
 
 .fotoCelu__celu:hover {
 	transform: scale(1.2);
+}
+
+.fotoCelu__mobile {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.fotoCelu {
+		display: none;
+	}
+	.fotoCelu__mobile {
+		display: flex;
+		flex-direction: column;
+		padding: 40px;
+	}
+}
+
+.foto__ubicacion {
+		display: flex;
+		flex-direction: row;
 }
 
 .footer {
@@ -368,11 +387,6 @@ h3 {
 	margin: 0;
 }
 
-@media (min-width: 768px) {
-	.barra {
-		justify-content: left;
-	}
-}
 
 hr {
 	height: 1px;
