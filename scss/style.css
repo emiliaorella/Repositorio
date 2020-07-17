@@ -397,6 +397,7 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 40px;
+    background-image: url(../img/122-01.png);
   }
 }
 
@@ -856,6 +857,7 @@ p {
     margin: none;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image: url(../img/122-01.png);
   }
 }
 

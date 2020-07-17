@@ -307,6 +307,7 @@ p {
 		display: flex;
 		flex-direction: column;
 		padding: 40px;
+		background-image: url(../img/122-01.png);
 	}
 }
 
@@ -487,15 +488,15 @@ hr {
 	color: $colorUno;
   }
 
-  .sticky {
+.sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
-  }
+}
 
-  .sticky + .content {
+.sticky + .content {
 	padding-top: 60px;
-  }
+}
 
 .button {
 	background-color: white;
@@ -624,14 +625,14 @@ hr {
 	transform: rotateY(180deg);
 }
 
-  .cards {
+.cards {
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: center;
 	  background-image: url(../img/122-01.png);
 	  padding-bottom: 100px;
 	  padding-top: 100px;
-  }
+}
 
 p {
 	padding: 10px;
@@ -652,6 +653,7 @@ p {
 		margin: none;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		background-image: url(../img/122-01.png);
 	}
 }
 
