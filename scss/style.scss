@@ -131,6 +131,7 @@ $fontDos: 'Galada', cursive;
 	color: $colorDos;
 }
 
+
 .fotos {
 	display: flex;
 	flex-direction: row;
@@ -231,7 +232,8 @@ h3 {
 }
 
 p {
-	padding: 10px;
+	padding: 20px;
+	font-family: $fontUno;
 }
 
 .info {
@@ -463,12 +465,12 @@ hr {
 	.footerMobile {
 		display: flex;
 		flex-direction: column;
-		font-size: 20px;
-		padding: 40px;
+		font-size: 15px;
 		text-align: center;
 		font-family: $fontUno;
 		background-color: $colorUno;
 		align-items: center;
+		margin: none;
 	}
 }
 
@@ -580,10 +582,8 @@ hr {
 	padding-top: 40px;
 }
 
-
 .flip-card {
 	background-color: transparent;
-	padding-left: 20px;
 	padding-right: 20px;
 	width: 520px;
 	height: 300px;
@@ -592,7 +592,6 @@ hr {
 }
 
 .flip-card-inner {
-	position: center;
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -614,10 +613,6 @@ hr {
 }
   
  
-.flip-card-front {
-	background-color: #bbb;
-	color: black;
-}
   
 .flip-card-back {
 	background-color: $colorUno;
@@ -654,6 +649,15 @@ p {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		background-image: url(../img/122-01.png);
+		margin: none;
+		width: 450px;
+	}
+	.flip-card {
+		background-color: transparent;
+		padding-right: 20px;
+		border: none;
+		perspective: 1000px; 
+		width: 450px;
 	}
 }
 
@@ -712,3 +716,27 @@ p {
 	font-family: $fontUno;
 	font-size: 18px;
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: grey;
+  }
+
+  .row{
+	  margin: none;
+	  padding: none;
+  }

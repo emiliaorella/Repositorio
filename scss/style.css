@@ -297,7 +297,8 @@ h3 {
 }
 
 p {
-  padding: 10px;
+  padding: 20px;
+  font-family: "Abel", sans-serif;
 }
 
 .info {
@@ -611,14 +612,14 @@ hr {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 20px;
-    padding: 40px;
+    font-size: 15px;
     text-align: center;
     font-family: "Abel", sans-serif;
     background-color: #595959;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: none;
   }
 }
 
@@ -771,7 +772,6 @@ hr {
 
 .flip-card {
   background-color: transparent;
-  padding-left: 20px;
   padding-right: 20px;
   width: 520px;
   height: 300px;
@@ -781,7 +781,6 @@ hr {
 }
 
 .flip-card-inner {
-  position: center;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -804,11 +803,6 @@ hr {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
 }
 
 .flip-card-back {
@@ -858,6 +852,16 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: url(../img/122-01.png);
+    margin: none;
+    width: 450px;
+  }
+  .flip-card {
+    background-color: transparent;
+    padding-right: 20px;
+    border: none;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    width: 450px;
   }
 }
 
@@ -923,5 +927,28 @@ p {
   text-align: center;
   font-family: "Abel", sans-serif;
   font-size: 18px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: grey;
+}
+
+.row {
+  margin: none;
+  padding: none;
 }
 /*# sourceMappingURL=style.css.map */
