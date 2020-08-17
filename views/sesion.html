@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar sesión</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="aplicacion.js"> </script>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container-fluid zero">
+
+        <!--navbar-->
+        <div class="row">
+            <div class="col-lg-12 zero">
+                <nav class="navbar navbar-expand-lg ">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">+</span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../aplicacion.html">I N I C I O</a>
+                              </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../views/registro.html">R E G I S T R A T E <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../views/sesion.html">I N G R E S A</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    + I N F O
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">B U S C A R</button>
+                        </form>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+        <!--end navbar-->
+
+        <!--formulario registro-->
+
+                <form class="iniciarSesion justify-content-end">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1 class="titulo">Ingresa tus datos para acceder</h1>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleInputUser">Usuario</label>
+                                <input type="user" class="form-control" id="exampleInputUser">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleInputPassword2">Repetir contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                    <button type="submit" class="btn btn-block">INICIAR SESION</button>      
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                    <button type="submit" class="btnForgot btn-block">Olvidaste tu contraseña?</button>      
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                    <button type="submit" class="btnFacebook btn-block">INICIAR SESION CON FACEBOOK</button>      
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                    <button type="submit" class="btnGmail btn-block">INICIAR SESION CON GMAIL</button>      
+                        </div>
+                    </div>
+
+
+                    <div class="row bajar">
+                        <div class="col-lg-6">
+                            <h2> Todavía no te registraste?</h2>
+                            <a href="../views/registro.html"><button type="submit" class="btnForgot btn-block">Registrate!</button>  </a>
+                        </div>
+                    </div>
+                </form>
+     
+            </div>
+        </div>
+<!--end formulario registro-->
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
