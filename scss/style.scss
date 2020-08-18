@@ -28,8 +28,6 @@ $fontUno: 'Bebas Neue', cursive;
     background-image: url(../img/fondo5.png);
 }
 
-
-
 .nav-item {
     justify-content: end;
     font-size: 30px;
@@ -73,6 +71,7 @@ $fontUno: 'Bebas Neue', cursive;
     color: white;
     margin-top: 15px;
     opacity: 80%;
+    font-family: $fontUno;
 }
 
 
@@ -84,6 +83,7 @@ $fontUno: 'Bebas Neue', cursive;
     color: white;
     margin-top: 15px;
     opacity: 80%;
+    font-family: $fontUno;
 
 }
 
@@ -98,11 +98,6 @@ $fontUno: 'Bebas Neue', cursive;
     margin-top: 15px;
     opacity: 80%;
 
-}
-
-.navbar-toggler {
-    color: white;
-    background-color: white;
 }
 
 .form-group {
@@ -130,6 +125,8 @@ $fontUno: 'Bebas Neue', cursive;
 h1 {
     font-family: $fontUno;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
@@ -203,4 +200,13 @@ p {
  .card-body {
      background-color: white;
      opacity: 90%;
+ }
+
+ .recordatorio {
+     padding-top: 40px;
+     padding-bottom: 30px;
+     color: white;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
  }

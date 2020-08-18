@@ -83,6 +83,7 @@
   color: white;
   margin-top: 15px;
   opacity: 80%;
+  font-family: "Bebas Neue", cursive;
 }
 
 .btnGmail {
@@ -93,6 +94,7 @@
   color: white;
   margin-top: 15px;
   opacity: 80%;
+  font-family: "Bebas Neue", cursive;
 }
 
 .btnForgot {
@@ -105,11 +107,6 @@
   color: black;
   margin-top: 15px;
   opacity: 80%;
-}
-
-.navbar-toggler {
-  color: white;
-  background-color: white;
 }
 
 .form-group {
@@ -146,6 +143,12 @@
 h1 {
   font-family: "Bebas Neue", cursive;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h2 {
@@ -221,5 +224,18 @@ h3 {
 .card-body {
   background-color: white;
   opacity: 90%;
+}
+
+.recordatorio {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
